@@ -5,3 +5,5 @@
 /SCUT_cropped_images
 /fairface_cropped_images
 /MEB_cropped_images
+*.pyc
+/lightning_logs
