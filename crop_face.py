@@ -3,7 +3,6 @@ import os
 from PIL import Image
 import sys
 
-from deepface import DeepFace
 from facenet_pytorch import MTCNN
 import numpy as np
 from tqdm import tqdm

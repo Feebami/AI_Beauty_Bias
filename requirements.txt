@@ -1,0 +1,14 @@
+torch>=1.10
+torchvision
+pytorch-lightning>=1.5
+facenet-pytorch
+opencv-python
+mtcnn
+pandas
+numpy
+scikit-learn
+scipy
+matplotlib
+seaborn
+jupyter
+tqdm
