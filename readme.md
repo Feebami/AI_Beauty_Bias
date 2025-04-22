@@ -24,19 +24,23 @@ To analyze and quantify ethnic bias in facial beauty assessment models using two
 
 ## Repository Structure
 
-| File                         | Description                                                                 |
-|------------------------------|-----------------------------------------------------------------------------|
+| Folder/File                         | Description                                                                 |
+|-------------------------------------|-----------------------------------------------------------------------------|
+| `scripts/`                            | |
 | `crop_face.py`               | Script for face detection and cropping using MTCNN.                         |
 | `l_module.py`                | LightningModule for PyTorch Lightning model training.                       |
 | `train_SCUT.py`              | Training script for SCUT-FBP5500 dataset.                                   |
 | `train_MEB.py`               | Training script for MEBeauty dataset.                                       |
+| `notebooks/`                        | |
 | `prepare_SCUT_csv.ipynb`     | Preprocessing notebook for SCUT-FBP5500 metadata.                           |
 | `prepare_MEB_csv.ipynb`      | Preprocessing notebook for MEBeauty metadata.                               |
 | `prepare_FairFace_csv.ipynb` | Preprocessing notebook for FairFace metadata.                               |
 | `SCUT_analysis.ipynb`        | Analysis notebook for SCUT-FBP5500 results and bias metrics.                |
 | `MEB_analysis.ipynb`         | Analysis notebook for MEBeauty results and bias metrics.                    |
 | `FairFace_analysis.ipynb`    | Analysis notebook for FairFace cross-dataset evaluation.                    |
+| `data/`                            | |
 | `*.csv`, `*.txt`             | Metadata, labels, and prediction results for each dataset.                  |
+| Other Files: | |
 | `.gitignore`, `.gitattributes` | Standard git configuration files.                                        |
 | `requirements.txt`           | Python package dependencies.                                                |
 | `README.md`                  | This README file.                                                          |
@@ -91,7 +95,7 @@ To analyze and quantify ethnic bias in facial beauty assessment models using two
 
 ## Results Summary
 
-- Both SCUT- and MEBeauty-trained models exhibit significant ethnic bias in beauty score predictions, as measured by statistical parity and error parity metrics.
+- Both SCUT- and MEBeauty-trained models exhibit significant ethnic bias in beauty score predictions, as measured by distributional parity and error parity metrics.
 - Cross-dataset and FairFace evaluations reveal that these biases persist and may be amplified in more diverse populations.
 - The study highlights the importance of balanced datasets, diverse annotators, and fairness-aware model design to mitigate harmful algorithmic biases.
 
