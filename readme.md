@@ -138,7 +138,3 @@ chamel@regis.edu
 ## License
 
 This repository is for academic and research purposes only. Please refer to each dataset’s original license for usage terms.
-
----
-
-*For more details, see the full paper and code in this repository.*
