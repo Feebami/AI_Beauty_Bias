@@ -121,7 +121,6 @@ If you use this code or analysis, please cite:
   author    = {Chandon Hamel},
   school    = {Regis University},
   year      = {2025},
-  note      = {MSDS 640},
   address   = {Denver, CO, USA}
 }
 ```
