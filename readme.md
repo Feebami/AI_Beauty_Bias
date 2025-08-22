@@ -127,14 +127,6 @@ If you use this code or analysis, please cite:
 
 ---
 
-## Contact
-
-For questions or collaboration, please contact:  
-Chandon Hamel  
-chamel@regis.edu
-
----
-
 ## License
 
 This repository is for academic and research purposes only. Please refer to each dataset’s original license for usage terms.
